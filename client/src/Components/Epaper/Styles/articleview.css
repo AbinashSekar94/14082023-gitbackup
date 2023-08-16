@@ -1,0 +1,526 @@
+@font-face {
+  font-family: 'Taun_maragadam';
+  src: url('../Assest/Myfonts/TAUN_Maragadam.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Taun_Taamarai';
+  src: url('../Assest/Myfonts/TAUN_Taamarai.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TAUN_Kurinji';
+  src: url('../Assest/Myfonts/TAUN_Kurinji.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TAUNPanb';
+  src: url('../Assest/Myfonts/TAUNPanb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TAUNPann';
+  src: url('../Assest/Myfonts/TAUNPann.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TAUN_MeenaBold';
+  src: url('../Assest/Myfonts/TAUN_MeenaBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.Adbar-left {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 20%;
+  margin: 2%;
+  align-items: center
+}
+
+.Adbar-right {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 20%;
+  margin: 2%;
+  align-items: center;
+  background-color: whitesmoke;
+
+}
+
+.adbarleft1,
+.adbar-right1 {
+  height: auto;
+  width: auto;
+  margin: 10px 0px;
+  border: 2px solid black;
+  align-items: center;
+
+}
+
+.newsview {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  width: 100%;
+  height: auto;
+  background-color: #D5E4FF;
+}
+
+.left-half {
+  background-color: white;
+  overflow: auto;
+  padding: 10px;
+  margin: 15px;
+  width: 85%;
+  height: auto;
+  text-align: justify;
+  font-family: 'Taun_maragadam';
+  font-size: 22px;
+}
+
+.sideHeading {
+  display: flex;
+  flex-direction: row;
+  background-color: #D5E4FF;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+  height: auto;
+  width: auto;
+}
+
+.sideHeading:hover {
+  color: #005DA4;
+  text-decoration: underline;
+}
+
+.left-half img {
+  width: 135px;
+  height: 95px;
+  margin: 5px;
+  border: 2px solid #3E8AF8;
+  border-radius: 8px;
+
+}
+
+ .sideHeadingImage img{
+    max-width: 100;
+    height :auto;
+    margin: 5px;
+    border: 2px solid #3E8AF8;
+    border-radius: 8px;
+  } 
+
+
+
+.left-half ul {
+  list-style: none;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  animation: slide-in 0.8s ease-out forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.left-half li {
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+
+.left-half a {
+  margin: 0px 0px 0px 10px;
+}
+
+.left-half a:link {
+  color: black
+}
+
+
+.left-half a:hover:not(.active) {
+  font-size: 23px;
+  cursor: pointer;
+  font-family: 'Taun_maragadam';
+}
+
+.left-half a:active {
+  font-family: 'Taun_maragadam';
+  transform: scale(0.9);
+  transition: transform 0.2s ease-in-out;
+}
+
+.left-half a:visited {
+  background-color: rgb(0, 136, 255);
+  font-family: 'Taun_maragadam';
+
+}
+
+
+
+.right-half {
+  background-color: white;
+  margin: 15px 0px 15px -35px;
+  padding: 0px;
+  border: #75B6FF 8px solid;
+  width: 100%;
+  height: auto;
+  padding: 10px
+}
+
+.newscontent {
+  text-align: justify;
+  overflow: auto;
+  height: 700px
+}
+
+
+.newsimage {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsimage img {
+  height: auto;
+  max-width: 70%;
+  margin: 2% 15%;
+  border: 3px solid #3E8AF8;
+  border-radius: 15px;
+}
+
+.newsimage img:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.newsbody {
+  height: auto;
+  text-align: justify;
+
+  font-family: 'TAUNPann';
+  background-color: #f2f6ff;
+  padding: 8px;
+  text-indent: 25px;
+}
+
+.newscontent h3 {
+  color: #005DA4;
+  font-family: 'Taun_maragadam';
+  font-size: 32px;
+
+}
+
+.newscontent ul {
+  font-size: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+.newscontent li {
+  color: #005DA4;
+  list-style-type: disc;
+  align-items: center;
+
+}
+
+.newscontent li::marker {
+  font-size: 1.4em;
+ 
+}
+
+
+.newscontent h4 {
+  font-family: 'Taun_Taamarai';
+  font-size: 25px;
+  text-decoration: underline 2px;
+  text-underline-position: under;
+}
+
+.newscontent h5 {
+  font-family: 'TAUN_MeenaBold';
+  font-size: 25px;
+
+}
+
+.newscontent h6 {
+  font-family: 'TAUN_Kurinji';
+  font-size: large;
+  font-style: italic;
+}
+
+.news-emoji ul {
+  
+  list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    justify-content: center;
+ 
+}
+
+.news-emoji .emoji1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.news-feature ul {
+  background-color: #9cddf1;
+  height: 80px;
+  border: #005DA4 3px solid;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.news-footer {
+  background-color: rgb(252, 249, 249);
+  border-radius: 20px;
+}
+
+.news-footer ul {
+  list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    justify-content: center;
+}
+
+.news-footer button {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #005DA4;
+  border: none;
+  
+}
+
+
+.news-feature input {
+  align-items: center;
+  margin: 0px 100px;
+  width: 250px;
+}
+
+.news-feature button {
+  margin-left: -80px;
+  padding: 0px;
+}
+
+.commentboxview {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #005DA4;
+  padding: 2%;
+ 
+}
+
+
+@media (min-width: 991px) and (max-width: 1450px) {
+ 
+  .right-half {
+    background-color: white;
+    margin: 15px -70px 15px -50px;
+    padding: 10px;
+    border: #75B6FF 10px solid;
+    width: 100%;
+    height: auto
+  }
+
+  .Adbar-left {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+ 
+
+  .firsthalf {
+    display: none;
+  }
+
+  .Adbar-right,
+  .Adbar-left {
+    display: none;
+
+  }
+
+  .grid-container {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: white;
+  }
+
+  .left-half {
+    width: auto;
+    height: 35vh;
+    margin: 0px 0px 20px 0px;
+    overflow: auto
+  }
+
+  .left-half img {
+    width: 80px;
+    height: 68px;
+    margin: 6px;
+  }
+
+  .left-half ul {
+    height: auto;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Taun_maragadam';
+    font-weight: medium;
+    font-size: large;
+    padding: 0;
+
+  }
+
+
+  .left-half a:hover:not(.active) {
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Taun_maragadam';
+  }
+
+  .right-half {
+    margin: 0px 0px 0px 0px;
+    border: 2px solid;
+    align-items: center;
+    width: 100%;
+  }
+
+  .newsimage img {
+    height: auto;
+    width: 95%;
+    margin: 5px 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .newscontent {
+    text-align: center;
+  }
+
+  .newscontent h3 {
+    font-size: 24px;
+    color: #005DA4;
+    font-family: 'Taun_maragadam';
+    
+  }
+
+  .newscontent h4 {
+    font-size: 20px;
+    font-family: 'Taun_Taamarai';
+  }
+
+  .newscontent h5 {
+    font-size: 22px;
+    font-family: 'TAUN_MeenaBold';
+  }
+
+  .newscontent h6 {
+    font-family: 'TAUN_Kurinji';
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+  }
+
+  .newsbody {
+    height: 100%;
+   
+    text-align: justify;
+    font-family: 'TAUNPann';
+    font-size: 14px;
+  }
+
+  .news-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap:5px;
+  }
+  .news-footer li{
+    margin: 0;
+  }
+
+  .news-feature ul {
+    height: 60px;
+    justify-content: space-evenly;
+    padding: 0px;
+
+  }
+
+  .news-feature input {
+    width: 150px;
+    margin: 0px;
+  }
+
+  .news-feature button {
+    margin-left: 0px;
+    padding: 5px;
+  }
+
+} 

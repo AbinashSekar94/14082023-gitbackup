@@ -1,0 +1,696 @@
+/* Common styles for all screen sizes */
+@import'./main.css';
+
+.quiz-int-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+.ad {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-ad {
+  display: flex;
+  align-items: flex-start;
+}
+
+.right-ad {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* QUIZ TOP ADD */
+.ad-quizmania-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ad-quizmania-top_1 {
+  margin-top: 1%;
+  width: 728px;
+  height: 90px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MIDDLE CONTENT */
+.content {
+  flex: 1;
+  background-color: aliceblue;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.content p {
+  font-size: var(--parafontsize);
+  text-align: left;
+  font-family: var(--parafont);
+  padding-left: 10px;
+  text-align: justify;
+  padding-right: 10px;
+  text-indent: 8%;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: #0050a1;
+  text-align: left;
+  padding-left: 10px;
+  font-family: var(--loadingcontenth1);
+  line-height: 1.2;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.buttons_quizmania {
+  box-shadow: 2px 3px #979fa7;
+  font-size: 1.3vw;
+  font-weight: 750;
+  color: #0050a1;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(97, 186, 255, 1) 0%,
+    rgba(166, 239, 253, 1) 90.1%
+  );
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* quizmania heading */
+.quizmania_heading {
+  flex-grow: 1;
+  display: flex;
+  background-image: radial-gradient(
+    closest-side at 50% 50%,
+    #0361bf 0%,
+    #00468b 100%
+  );
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+/* ......Quiz Mania HEading..... */
+.quizmania_heading {
+  height: 134px;
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headingimage-quizint {
+  transform: scale(0.8);
+}
+
+.quizmania_headingh1 {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.quizmania_headingh1 h1 {
+  font-size:4.5vw;
+  color: #f0f3f7;
+  text-align: left;
+  font-family: normal 900 79px/100px Arial MT;
+  line-height: 1.2;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.quizmania_heading_content {
+  font-size: var(--headfontsize);
+  font-weight: bold;
+  margin-top: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 4%;
+}
+
+
+
+/* quizmania categories */
+.quizmania_categories {
+  display: flex;
+  justify-content: center;
+}
+.quizmania_category_main {
+  display: flex;
+  margin-right: 10%;
+}
+
+.quizmania_category_content {
+  display: flex;
+  align-items:center;
+}
+
+.quizmania_category_heading {
+  margin-top: 2%;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #0050a1;
+  font-size: 40px;
+  font-family: normal 900 79px/100px Arial MT;
+  font-weight: 900;
+  letter-spacing: 0px;
+  opacity: 1;
+  
+}
+
+.quizmania_category_content li::before {
+  content: "* ";
+}
+.quizmania_category_content li {
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: bold;
+}
+.quizmania_category_image {
+  width: 364px;
+  height: 280px;
+  cursor: pointer;
+}
+.quizmania_category_image img {
+  width: 100%;
+  height: auto;
+}
+
+.quizicon {
+  width: 100%; /* Set the width of the image to fill the container */
+  height: 100%; /* Set the height of the image to fill the container */
+  animation: tiltAnimation 1s infinite alternate; /* Apply the tilt animation */
+}
+
+@keyframes tiltAnimation {
+  from {
+    transform: rotateZ(-10deg); /* Initial tilt left */
+  }
+  to {
+    transform: rotateZ(10deg); /* Tilt right */
+  }
+}
+
+.headingContent{
+  color:#0050A1;
+  font-size: 1.3vw;
+  font-family: normal 900 79px/100px Arial MT;
+  font-weight: 900;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+/* general knowledge section */
+.quizmania-gk {
+  align-items: center;
+  margin-bottom: 4%;
+}
+.quizmania-maindiv {
+  display: flex;
+  justify-content: center;
+}
+.quizmania-maindiv_img img {
+  width: 300px;
+  height: auto;
+  /* transform: scale(0.4); */
+}
+
+/* aptitude section */
+.quizmania-aptitude {
+  margin-bottom: 4%;
+  justify-content: center;
+}
+.quizmania-aptitude_main {
+  display: flex;
+  align-items: center;
+}
+.quizmania-aptitude_main img {
+  width: 300px;
+  height: auto;
+}
+
+/* science seciton */
+.quizmania-science {
+  margin-bottom: 4%;
+}
+.quizmania-science_main {
+  display: flex;
+  justify-content: center;
+}
+.quizmania-science_img img {
+  width: 300px;
+  height: auto;
+}
+
+/* SOCIAL SCIENCE */
+
+.quizmania-socience_main {
+  display: flex;
+  justify-content: center;
+}
+.quizmania-socscience {
+  margin-bottom: 4%;
+}
+.quizmania-socience_main img {
+  height: auto;
+  /* width:100%; */
+}
+
+.quizmania-socience-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+/* sport section */
+.quizmania-sports {
+  margin-bottom: 4%;
+}
+.quizmania-sports_main {
+  display: flex;
+  justify-content: center;
+}
+.quizmania-sports_img img {
+  width: 300px;
+  height: auto;
+}
+
+/* technology section */
+.quizmania-technology {
+  margin-bottom: 4%;
+}
+.quizmania-technology_main {
+  display: flex;
+  justify-content: center;
+}
+.quizmania-technology_main img {
+  height: auto;
+  width: 300px;
+}
+
+/* Leader section */
+.quizmania-leader {
+  margin-bottom: 2%;
+}
+.quizmania-leader_main {
+  display: flex;
+}
+.quizmania-leader_main img {
+  height: 250px;
+  height: auto;
+}
+.leaderboardbutton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button-leaderb {
+  margin-left: 10px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #dba237 ;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 2%;
+  background-color: inherit;
+}
+.buttons_quizmania_leaderBox{
+  display: flex;
+}
+.buttons_quizmania_leader {
+  
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  background-image: radial-gradient(
+    closest-side at 50% 50%,
+    #c09d3e 0%,
+    #dba237 100%
+  );
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 2%;
+  box-shadow: 2px 2px rgb(190, 101, 69);
+  margin-left: 2%;
+}
+
+/* SideBar LInks */
+.quiz_sidenavbar {
+  margin-top: 20%;
+  display: block;
+  align-items: left;
+  width: 80%;
+  top: 0;
+  position:relative;
+  padding-top: 30px;
+}
+.sideNavbar_heading {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #c8cbce;
+}
+.side_navbarlinks {
+  text-align: left;
+  font-size: 20px;
+  width: 100%;
+}
+
+.side_navbarlinks div {
+  background-color: white;
+  margin-bottom: 2%;
+  padding-left: 5px;
+  padding-right: 20px;
+  color: #0050a1;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 2px 4px rgb(214, 214, 214);
+}
+.side_navbarlinks div:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/*  AD containers  */
+.left-ad1 {
+  height: 600px;
+  width: 300px;
+  margin-top: 20%;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.right-ad1 {
+  order: 1;
+  height: 600px;
+  width: 300px;
+  margin-top: 20%;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.right-ad2 {
+  bottom: 0;
+  height: 600px;
+  width: 300px;
+  margin-top: 20%;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .quiz-int-container {
+    flex-direction: column;
+  }
+  .ad {
+    width: 100%;
+  }
+  .left-ad {
+    display: none;
+  }
+
+  .right-ad {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content p {
+    font-size: var(--parasecfontsize);
+    text-align: left;
+    font-family: var(--parafont);
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+  }
+
+  .content h1 {
+    font-size: 25px;
+    color: #0050a1;
+    text-align: center;
+    padding-left: 10px;
+    font-family: var(--loadingcontenth1);
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  
+  .buttons_quizmania {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0050a1;
+    background-color: #c8cbce;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* ......Quiz Mania HEading..... */
+  .quizmania_heading {
+    height: 110px;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .heading_image {
+    /* height:150px;
+    width:220px; */
+    margin-right: 0 !important;
+  }
+  .quizmania_heading img {
+    height: auto;
+    width: 100%;
+  }
+  .headingimage-quizint {
+    transform: scale(0.9);
+  }
+
+  .quizmania_headingh1 {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quizmania_headingh1 h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    font-family: arial;
+  }
+
+  .quizmania_heading_content {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4%;
+  }
+
+  /* quizmania categories */
+  .quizmania_categories {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .quizmania_category_content {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .quizmania_category_main {
+    display: flex;
+  }
+
+  .quizmania_category_heading {
+    font-size: 25px;
+    color: #0050a1;
+    text-align: center;
+    /* padding-left: 10px; */
+    font-family: var(--loadingcontenth1);
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+
+  .quizmania_category_content li {
+    white-space: nowrap;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .quizmania_category_image img {
+    width: 364px;
+    height: auto;
+  }
+  /* general knowledge section */
+  .quizmania-gk {
+    align-items: center;
+    margin-bottom: 8%;
+  }
+  .quizmania-maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .quizmania-maindiv_img {
+    order: -1;
+  }
+  .quizmania-science_img {
+    order: -1;
+  }
+
+  /* aptitude section */
+  .quizmania-aptitude {
+    margin-bottom: 8%;
+    justify-content: center;
+  }
+  .quizmania-aptitude_main {
+    flex-direction: column;
+  }
+
+  /* sport section */
+  .quizmania-sports {
+    margin-bottom: 8%;
+  }
+  .quizmania-sports_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .quizmania-sports_img {
+    order: -1;
+  }
+
+  /* science seciton */
+  .quizmania-science_main {
+    flex-direction: column;
+  }
+  .quizmania-science {
+    margin-bottom: 8%;
+  }
+
+  /* social science */
+  .quizmania-socscience {
+    margin-bottom: 8%;
+  }
+  .quizmania-socience_main {
+    flex-direction: column;
+  }
+
+  /* technology section */
+  .quizmania-technology {
+    margin-bottom: 8%;
+  }
+
+  .quizmania-technology_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Leader section */
+  .quizmania-leader {
+    margin-bottom: 8%;
+  }
+  .quizmania-leader_main {
+    display: flex;
+    flex-direction: column;
+  }
+  .quizmania-leader_main img {
+    height: 321px;
+    width: 281px;
+  }
+  .leaderboardbutton {
+    display: flex;
+    justify-content: center;
+  }
+  .quizmania-leader_img {
+    order: -1;
+  }
+
+  .buttons_quizmania_leaderBox{
+    justify-content: center;
+  }
+
+  .button-leaderb {
+    margin-left: 10px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #dba237 ;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 2%;
+  background-color: #ffffff;
+  }
+  .quiz_sidenavbar {
+    margin-top: 3%;
+    display: block;
+    width: 80%;
+    top: 2%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*  AD containers  */
+  .left-ad1 {
+    height: 90px;
+    width: 350px;
+  }
+  .right-ad1 {
+    display: none;
+    height: 90px;
+    width: 350px;
+    margin-top: 2%;
+    background-color: #ffffff;
+  }
+
+  .right-ad2 {
+    bottom: 0;
+    height: 90px;
+    width: 350px;
+    margin-top: 20%;
+    background-color: #ffffff;
+    align-items: center;
+    display: none;
+    justify-content: center;
+  }
+  .ad-quizmania-top_1 {
+    margin-top: 1%;
+    width: 350px;
+    height: 90px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+  }
+}

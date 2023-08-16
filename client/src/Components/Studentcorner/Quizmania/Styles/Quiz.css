@@ -1,0 +1,307 @@
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em;
+  margin-left: 0;
+  margin-right: 0%;
+}
+.flex-container1 .flex-AddPanel1 {
+  width:40%;
+  margin-left: 0;
+}
+
+.flex-container1 .flex-AddPanel1 .Ad-R-1,
+.flex-container1 .flex-AddPanel1 .Ad-R-2 {
+  height: auto;
+  width: auto;
+  border: 1px solid rgb(163, 162, 162);
+  margin-bottom: 1.5em;
+  margin-left: 0%;
+  margin-right: 2%;
+}
+
+.Ad-R-2 img{
+  width:100% ;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.5em;
+  justify-content: left;
+}
+
+.container1 .info-Heading {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0.5em;
+}
+
+.container1 .info-Heading .userInfo {
+  padding: 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(12, 49, 105);
+}
+
+.container1 .info-Heading .Quiz-topic-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0.1em;
+  margin: 1% 0 1% 0%;
+  background-color: #ffeae2;
+}
+
+.container1 .info-Heading .Quiz-topic-div .topicHeading {
+  font-size: 1em;
+  text-align: left;
+  padding: 0.5em;
+  width: auto;
+  font-weight: bold;
+}
+
+.container1 .info-Heading .Quiz-topic-div .time {
+  display: fixed;
+  font-size: 1em;
+  text-align: center;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.container1 .info-Heading .btn-holder {
+  text-align: center;
+}
+
+.container1 .info-Heading .btn-holder .startbtn {
+  color: white;
+  background-color: #005da4;
+  border: 1px;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 16px;
+  text-align: center;
+  width: 10%;
+  cursor: pointer;
+}
+
+.container1 .question {
+  padding: 0.5em;
+  width: auto;
+  margin-left: 0;
+  overflow-y: scroll;
+  /* max-height: 400px; */
+  text-align: left;
+  /* background-image: url("../Asset/doodles.png"); */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+}
+
+.container1 .timer {
+  position: fixed;
+  margin-left: 9rem;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.container1 .question .quizBox1 {
+  width: auto;
+  margin-top: 1em;
+  text-align: left;
+  /* background-color: white; */
+  background-image: url("../Asset/doodles.png");
+  padding: 1%;
+  padding-left: 3%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.container1 .question .quizBox1 .questionsContent {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container1 .question ul {
+  background-color: white;
+  height: auto;
+}
+
+.container1 .question li {
+  width: 100%;
+  list-style: none;
+}
+
+.container1 .question ul li label {
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.container1 .question ul li label:hover {
+  text-decoration: underline;
+  color: #f0190a;
+}
+
+.container1 .questions ul li label input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.container1 .btn-conatiner .btn {
+  align-content: center;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1em;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-conatiner .sbtn {
+  color: white;
+  background-color: #005da4;
+  border: 1px;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 16px;
+  text-align: center;
+  width: 10%;
+  cursor: pointer;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.dialog {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: large;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.dialog .dialog-buttons .btn {
+  color: white;
+  background-color: #005da4;
+  border: 1px;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 16px;
+  text-align: center;
+  width: 20%;
+  cursor: pointer;
+  margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dialog button:hover {
+  background-color: #ddd;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-container1 {
+    flex-direction: column;
+    margin: 0.2em;
+    background-image: url("../../../../../public/sc-pop3-1@2x.webp");
+  }
+
+  .flex-container1 .flex-AddPanel1{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex-container1 .flex-AddPanel1 .Ad-R-1,
+  .flex-container1 .flex-AddPanel1 .Ad-R-2 {
+    height: 10em;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  .Ad-R-2 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .container1 .info-Heading .Quiz-topic-div .topicHeading {
+    font-size: 1em;
+  }
+
+  .container1 .info-Heading .Quiz-topic-div .time {
+    font-size: 1em;
+  }
+
+  .container1 .info-Heading .btn-holder .startbtn {
+    font-size: 1em;
+    width: 20%;
+  }
+
+  .container1 .question {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0%;
+    max-height: 500px;
+  }
+
+  .container1 .question .quizBox1 {
+    padding: 2%;
+    min-width: 320px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .container1 .question .quizBox1 .questionsContent {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .container1 .question ul li label {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .container1 .question ul {
+    width: 100%;
+  }
+
+  .container1 .btn-conatiner .btn {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-conatiner .sbtn {
+    padding: 2%;
+    font-size: 16px;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dialog {
+    width: 90%;
+  }
+
+  .dialog .dialog-buttons .btn {
+    margin: 2%;
+    width: 40%;
+    font-size: 1em;
+  }
+}

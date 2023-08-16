@@ -1,0 +1,350 @@
+/* Default styles */
+.flex-container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-image: url("../../../../../public/QuizWall3.webp");
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position:bottom;
+  margin-bottom: 0;
+}
+
+.flex-container .flex-AddPanel1 {
+  border: none;
+}
+
+.flex-container .flex-AddPanel1 .Ad-R-1,
+.flex-container .flex-AddPanel1 .Ad-R-2 {
+  height: auto;
+  width: auto;
+  border: 1px solid rgb(163, 162, 162);
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+.flex-container .flex-content {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  height: auto;
+  width: auto;
+  padding: 5px;
+}
+
+.flex-container .flex-content .firstRow {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  justify-content: center;
+}
+
+.flex-container .flex-content .firstRow .logo {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #005da4;
+}
+
+.flex-container .flex-content .firstRow .logo img {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* transform: rotate(-20deg); */
+  padding: 5px;
+}
+
+/* .QuizLogo {
+  transform-origin: top center;
+  animation: QuizLogo 4s ease infinite;
+}
+@keyframes QuizLogo {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  70% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(10deg);
+  }
+} */
+.flex-container .flex-content .firstRow .box {
+  margin-right: 10%;
+  margin-left: 10%;
+  /* border: 1px solid #0C5084; */
+  border-radius: 35px;
+  justify-content: left;
+  padding: 20px;
+  background-color: #e4f7fe;
+  box-shadow: 8px 8px 8px #0c5084;
+}
+
+.flex-container .flex-content .firstRow .box .boxHead {
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #005da4;
+  background-color: inherit;
+  padding-left: 5px;
+  border: 2px solid #e4f7fe;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.flex-container .flex-content .firstRow .box .boxBody {
+  font-size: 12px;
+  font-weight: bold;
+  white-space: break-spaces;
+  line-height: 1.5;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: row;
+  background-color: inherit;
+  justify-content: space-evenly;
+  
+}
+.categoryImage {
+  width: 8%;
+  height: auto;
+}
+.categoryImage:hover {
+  background-color: #5ab2f5;
+  border: solid 1px #5ab2f5;
+  border-radius: 5px;
+}
+
+/* .secondRow > button {
+  width: fit-content;
+  border: none;
+  border-radius: 5px;
+  background-color: inherit;
+  margin: 5px;
+  cursor: pointer;
+  color: #1cc26f;
+  font-size: 30px;
+  text-align: center;
+  line-height: 75px;
+  font-weight: bolder;
+} */
+
+button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.thirdRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 1%;
+  
+
+}
+.thirdRow .todayQuiz-Logo-holder {
+  width: auto;
+  height: auto;
+}
+
+.thirdRow .todayQuiz-Logo-holder img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  margin-left: 0;
+  margin-top: 55%;
+}
+
+.thirdRow .todayQuiz-Logo-holder .clickMe {
+  display: block;
+  background-color: #005da4;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 2%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.thirdRow .todayQuiz-content-holder {
+  color: #070213;
+  font-weight: bold;
+  font-family: Arial;
+  width: auto;
+  text-align: center;
+  
+}
+
+.thirdRow .todayQuiz-content-holder .girlImageHolder {
+  width: 50%;
+  height: auto;
+}
+.thirdRow .todayQuiz-content-holder img {
+  width: 90%;
+  height: auto;
+  margin-top: 1%;
+}
+.thirdRow .todayQuiz-content-holder .grass {
+  width: 210%;
+  margin-top: -150px;
+}
+
+
+.thirdRow .todayQuiz-table-holder {
+  text-align: center;
+  line-height: 1.5;
+  color: #060e16;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 0;
+  width: 100%;
+}
+.leaderBoard{
+  width: 80%;
+}
+.thirdRow .todayQuiz-Logo-holder img {
+  width: 70%;
+  height: auto;
+  cursor: pointer;
+  margin-left: 0;
+  margin-top: 35%;
+}
+
+.todayQuizLogo {
+  animation: todayQuizLogo 3s ease infinite;
+}
+@keyframes todayQuizLogo {
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    background-image: url("../Asset/doodles.png")
+  }
+
+  .flex-container .flex-AddPanel1 {
+    margin-right: 0;
+  }
+
+  .flex-container .flex-AddPanel1 .Ad-R-2 {
+    height: auto;
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 5px;
+    
+  }
+  .flex-container .flex-AddPanel1 .Ad-R-2 img {
+    width: 100%;
+  }
+
+  .flex-container .flex-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex-container .flex-content .firstRow {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+  }
+
+  .flex-container .flex-content .firstRow .logo img {
+    margin-left: 12%;
+  }
+
+  .flex-container .flex-content .firstRow .box {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+  }
+
+  .flex-content .secondRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: auto;
+    scroll-behavior: smooth;
+    width: auto;
+    padding: 0;
+    margin-top: 5%;
+    align-items: center;
+  }
+
+  .flex-container .flex-content .secondRow .categoryImage {
+    width: 25%;
+    height: auto;
+    margin-left: 3%;
+  }
+
+  .secondRow > button {
+    margin-bottom: 5px;
+  }
+
+  .thirdRow {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../Asset/doodles.png")
+  }
+
+  .thirdRow .todayQuiz-content-holder {
+    display: none;
+  }
+
+  .thirdRow .todayQuiz-Logo-holder {
+    margin-bottom: 5%;
+  }
+
+  .thirdRow .todayQuiz-Logo-holder img {
+    margin-top: 20%;
+  }
+}

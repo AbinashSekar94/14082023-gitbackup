@@ -1,0 +1,200 @@
+.QuizMania-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30%;
+}
+.QuizManiaTopicfirst {
+  width: 90%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(3, 106, 175);
+  /* margin: 0% 0 0% 0; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.QuizManiaTopicsecond {
+  width: auto;
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(5, 5, 5);
+  margin: 1% 0 1% 0;
+}
+.QuizManiaTopicThird {
+  display: none;
+}
+
+.QuizManiaImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trophy-holder {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+}
+.trophy-holder img {
+  width: 70%;
+  height: auto;
+}
+.trophy-button {
+  display: flex;
+  flex-direction: row;
+  justify-content:baseline;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.trophy-button button {
+  border: none;
+  background-color: #0f75bc;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.trophy-button #first {
+  margin-right: 8%;
+  margin-left: 22%;
+  padding: 0;
+  width: 12%;
+  box-shadow: 2px 1px 22px rgb(248, 230, 69);
+}
+
+.trophy-button #second {
+  margin-left: 2%;
+  padding: 0%;
+  width: 12%;
+  box-shadow: 2px 1px 22px rgb(248, 230, 69);
+}
+
+.trophy-button #third {
+  margin-left: 10%;
+  padding: 0%;
+  width: 12%;
+  box-shadow: 2px 1px 22px rgb(248, 230, 69);
+}
+.todayQuizHolder {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.todayQuizHolder img {
+  width: 70%;
+  height: auto;
+  animation: todayQuizLogo 3s ease infinite;
+}
+@keyframes todayQuizLogo {
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .QuizMania-page {
+    margin-top: -15%;
+    background-image: url("../../../../../public/Background1-01.webp");
+    background-size: contain;
+  }
+  .QuizManiaImage {
+    flex-direction: column;
+  }
+  .trophy-holder {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+  .todayQuizHolder {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+  }
+  .QuizManiaTopicfirst {
+    width: 90%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+
+    /* margin: 0% 0 0% 0; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .QuizManiaTopicsecond {
+    width: 90%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #c3f4ff;
+    /* margin: 0% 0 0% 0; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .QuizManiaTopicThird {
+    display: block;
+    width: 90%;
+    font-size: 54px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+  .trophy-button button {
+    width: 11%;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  .trophy-button #first {
+    margin-right: 8%;
+    margin-left: 3%;
+    padding: 0;
+    width: 12%;
+    box-shadow: 2px 1px 22px whitesmoke;
+  }
+  .trophy-button #second {
+    margin-right: 8%;
+    margin-left: 12%;
+    padding: 0%;
+    width: 12%;
+    box-shadow: 2px 1px 22px whitesmoke;
+  }
+  .trophy-button #third {
+    margin-right: 5%;
+    margin-left: 8%;
+    padding: 0%;
+    width: 12%;
+    box-shadow: 2px 1px 22px whitesmoke;
+  }
+  .trophy-holder img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+  .trophy-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+}

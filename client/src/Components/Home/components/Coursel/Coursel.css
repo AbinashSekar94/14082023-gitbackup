@@ -1,0 +1,44 @@
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  align-items: center;
+}
+.cards-wrapper {
+  display: flex;
+  transition: transform ease-out 0.45s;
+}
+.card {
+  width: 300px;
+  margin-right: 20px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color:whitesmoke;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.prev-btn {
+  left: 0;
+}
+.next-btn {
+  right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 200px;
+  }
+  .prev-btn,
+  .next-btn {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,164 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-user-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.profile-user-details button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.profile-user-details button:hover {
+  background-color: #3063c2;
+}
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #20232a;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.icons {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.icons a {
+  color: #ffffff;
+  font-size: 2rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #3e64af;
+}
+
+.sidenav {
+  width: auto;
+  background-color: #1277d6;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav-url {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.url {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.active {
+  color: #f1f1f1;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.card {
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  position: relative;
+}
+
+.edit {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+table {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .icons {
+    margin: 0.5rem 0 0 1rem;
+  }
+
+  .sidenav {
+    padding-top: 3rem;
+  }
+
+  .sidenav-url {
+    padding-top: 1rem;
+  }
+
+  .url a {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    margin-top: 0.5rem;
+  }
+} */

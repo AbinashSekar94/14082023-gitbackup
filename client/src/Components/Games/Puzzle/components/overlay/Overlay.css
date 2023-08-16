@@ -1,0 +1,15 @@
+.overlay{
+    border:9px solid #ffe1a1;
+
+    pointer-events: none;
+    z-index: 20;
+    
+  }
+
+@media only screen and (max-width: 600px) {
+
+  .overlay{
+    border:6px solid #ffe1a1;
+  }
+    
+  }

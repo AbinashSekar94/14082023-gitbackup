@@ -1,0 +1,393 @@
+@import "./main.css";
+
+.Loading-division {
+  display: flex;
+  margin: 0;
+}
+.Loading-division p {
+  /* for entire content */
+  text-align: justify;
+  text-indent: 35px;
+}
+.Loading-division h3 {
+  color: #0050a1;
+  margin-bottom: 2%;
+}
+
+.loading-top-ad {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1%;
+}
+
+.loading-top-ad-content {
+  margin-top: 1%;
+  background-color: #ffffff;
+  width: 728px;
+  height: 90px;
+  border-radius: 3px;
+}
+
+.ads {
+  align-items: center;
+  justify-content: center;
+}
+
+.left-ad,
+.right-ad {
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.left-ad {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.right-ad {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.loading-ad-left1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ffffff;
+  height: 600px;
+  width: 300px;
+}
+
+.rightad-1 {
+  margin-left: 15%;
+  height: 600px;
+  width: 300px;
+  background-color: #ffffff;
+}
+
+.loading-content {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 1;
+  text-align: center;
+  background-color: aliceblue;
+}
+.loading-heading {
+  flex-grow: 1;
+  display: flex;
+  background-image: radial-gradient(
+    closest-side at 50% 50%,
+    #0361bf 0%,
+    #00468b 100%
+  );
+  /* background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(0,8,120,1) 99.7% ); */
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.heading-text {
+  color: white;
+  font-size: 79px;
+  font-family: normal 900 79px/100px Arial MT;
+  font-weight: 900;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.heading-image img {
+  width: 403px;
+  height: auto;
+}
+
+/* .heading-below-content {
+  margin-top: 2%;
+  font-size: var(--headfontsize);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+} */
+
+.loading-quizmania {
+  margin-bottom: 3%;
+}
+
+.quizamania-maincontent {
+  display: flex;
+  font-size: 1.3vw;
+  text-align: left;
+  font-family: Arial;
+}
+
+.loading-content h1 {
+  color: #0050a1;
+  font-size: 40px;
+  font-family: var(--loadingcontenth1);
+  font-weight: 900;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.quizmania-mainimage {
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading_image {
+  margin-right: 10%;
+}
+
+.loading-quizmania p {
+  text-align: justify;
+  align-content: center;
+  font-size: var(--parafontsize);
+  font-family: var(--parafont);
+}
+.button-testpower {
+  font-size: 28px;
+  font-weight: 700;
+  box-shadow: -0.3px 0.4px 12.5px #9dd2ffb8;
+  color: #fff;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(97, 186, 255, 1) 0%,
+    rgb(97, 186, 255) 90.1%
+  );
+  border-radius: 10px;
+  border: none;
+  /* box-shadow: 2px 3px #979fa7; */
+}
+
+/* examupdates */
+.loading-examupdates {
+  margin-bottom: 3%;
+}
+.examupdates-maincontent {
+  display: flex;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.loading-examupdates h1 {
+  color: #0050a1;
+  font-size: 40px;
+  font-family: var(--loadingcontenth1);
+  font-weight: 900;
+  letter-spacing: 0px;
+  opacity: 1;
+  /* text-shadow: 1px 1px #3d3a3a; */
+}
+
+.examupdates-mainimage {
+  /* width:397px;
+   height:246px; */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.loading-examupdates p {
+  font-size: 1.3vw;
+  font-family: var(--parafont);
+}
+
+/*--------- question bank----------- */
+
+.loading-questionbank {
+  margin-bottom: 3%;
+}
+.questionbank-maincontent {
+  display: flex;
+  font-size: 1.3vw;
+  font-family: Arial;
+}
+
+.loading-questionbank p {
+  font-size: 1.3vw;
+  font-family: var(--parafont);
+}
+/* --study tips--- */
+
+.loading-studytips {
+  margin-bottom: 3%;
+}
+.studytips-maincontent {
+  display: flex;
+  font-size: 1.3vw;
+  font-family: Arial;
+}
+
+.studytips-mainimage {
+  /* width:397px;
+   height:246px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-studytips p {
+  font-size: 1.3vw;
+  font-family: var(--parafont);
+}
+
+@media screen and (max-width: 768px) {
+  .sc_container{
+    background-color:aliceblue;
+  }
+  .Loading-division {
+    flex-direction: column;
+    scroll-behavior: hidden;
+  }
+  .loading-top-ad-content {
+    margin-top: 1%;
+    background-color: #ffffff;
+    width: 350px;
+    height: 90px;
+    border-radius: 3px;
+  }
+  .loading-ad-left1 {
+  }
+  .right-ad {
+    display: flex;
+  }
+  .left-ad {
+    display: flex;
+  }
+
+  .heading-text {
+    font-size: 28px;
+  }
+
+  .heading-image img {
+    width: 100%;
+    height: auto;
+  }
+  .heading_image {
+    margin-right: 5%;
+  }
+
+  .quizmania-mainimage img {
+    /* width:80%;
+    height:173px; */
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading-below-content {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5%;
+  }
+  .button-testpower {
+    font-size: 20px;
+  }
+  .loading-quizmania {
+    margin-bottom: 5%;
+  }
+  .quizamania-maincontent {
+    flex-direction: column;
+  }
+  .quizmania-mainimage {
+    order: -1;
+    width: 100%;
+  }
+  .loading-examupdates {
+    margin-bottom: 5%;
+  }
+  .loading-questionbank {
+    margin-bottom: 5%;
+  }
+  .loading-studytips {
+    margin-bottom: 5%;
+  }
+  .examupdates-maincontent {
+    flex-direction: column;
+  }
+  .questionbank-maincontent {
+    flex-direction: column;
+  }
+  .questionbank-mainimage {
+    order: -1;
+  }
+  .questionbank-mainimage img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .studytips-maincontent {
+    flex-direction: column;
+  }
+  .studytips-mainimage img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .loading-examupdates h1 {
+    font-size: var(--loadingh1) !important;
+  }
+  .examupdates-mainimage img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .loading-questionbank h1 {
+    font-size: var(--loadingh1) !important;
+  }
+
+  .loading-quizmania h1 {
+    font-size: var(--loadingh1) !important;
+  }
+  .loading-studytips h1 {
+    font-size: var(--loadingh1) !important;
+  }
+
+  .loading-quizmania p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .loading-questionbank p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .loading-examupdates p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .loading-studytips p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .loading-examupdates p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .rightad-1 {
+    height: 90px;
+    width: 350px;
+    background-color: #ffffff;
+    display: none;
+  }
+  .loading-content h1 {
+    color: #0050a1;
+    font-size: 24px;
+    font-family: var(--loadingcontenth1);
+    font-weight: 900;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-shadow: none;
+  }
+  .loading-examupdates h1 {
+    text-shadow: none;
+  }
+}

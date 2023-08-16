@@ -1,0 +1,49 @@
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+ 
+  
+}
+
+.button-wrapper button{
+  border: 0 transparent;
+  background-image: linear-gradient(-20deg, #422213 0%, #1d0e0a 100%);
+  background-color: var(--correct);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Audiowide", sans-serif;
+  font-weight: bolder;
+  margin-left:20px
+
+}
+
+.button-wrapper button:hover{
+  background-color: var(--tile);
+}
+.timer{
+  pointer-events:none;
+  padding-left:0px;
+  
+}
+
+.timer-icon {
+  margin-right: 5px;
+  margin-left:10px; 
+ /* Adjust the value to increase or decrease the gap */
+}
+
+.timer-text {
+  margin-left:7px;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-wrapper{
+   padding-top: 10px;
+  
+  }
+}
+

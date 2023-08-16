@@ -1,0 +1,392 @@
+.date-input {
+  width: 1.2em;
+  border: none;
+  background-color: #d5e4ff;
+}
+
+.date-display {
+  margin-left: 10px;
+  /* font-weight: bold; */
+}
+
+.epaper_listedNav {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #d5e4ff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.epaper_listedNav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  gap: 12px;
+}
+
+.epaper_nav-itemss {
+  /* position: relative; */
+  align-items: center;
+  margin: 0 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  color: #1d5299;
+}
+
+.epaper_nav-text {
+  margin: 0 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.epaper_nav-itemss:first-child {
+  animation-delay: 0.2s;
+}
+
+.epaper_nav-itemss:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.epaper_nav-itemss:last-child {
+  animation-delay: 0.6s;
+}
+
+.epaper_nav-itemss:hover {
+  color: #6c90eb;
+}
+
+.epaper_btnview {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #d5e0f7;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.epaper_btnview button {
+  background-color: #edf2fc;
+  color: #1d5299;
+  border: none;
+  border-radius: 5px;
+  width: 7em;
+  height: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.epaper_btnview button.active {
+  background-color: #1d5299;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  justify-content: center;
+  margin: 15px 0px;
+}
+
+.pagination .page-item {
+  margin: -5px;
+}
+
+.pagination .page-link {
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  background-color: whitesmoke;
+  width: 100px;
+  color: #1d5299;
+}
+
+.pagination .page-link:hover {
+  background-color: #1d5299;
+  color: #fff;
+}
+
+.pagination .page-item:visited {
+  background-color: #1843b9;
+  color: #fff;
+}
+
+.mobilepdf-viewer {
+  display: none;
+}
+
+.rpv-default-layout__main {
+  display: flex;
+
+  height: 100%;
+
+  position: absolute;
+
+  width: 100%;
+}
+
+.rpv-default-layout__toolbar {
+  justify-content: center;
+}
+
+.rpv-core__minimal-button[aria-label="Open file"] {
+  display: none;
+}
+
+.rpv-core__minimal-button[aria-label="Download"] {
+  display: none;
+}
+
+.rpv-core__minimal-button[aria-label="Print"] {
+  display: none;
+}
+.app-footer {
+  display: none;
+}
+
+.School_animate {
+  width: 50.1vh;
+  /* height: 450px; */
+}
+
+.animate_content {
+  color: #1d5299;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Leave_hold {
+  width: 18%;
+}
+
+.epaper_bottom,
+.epaper_top {
+  width: 50%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 65vh;
+  left: 25%;
+  padding: 1vw;
+  font-size: 1.9em;
+  font-weight: 900;
+}
+
+.epaper_bottom {
+  color: #1d5299;
+}
+
+.epaper_top {
+  background-color: #2b82f3;
+  color: white;
+  clip-path: circle(13% at 85% 50%);
+  animation: circleMove 10s ease-in-out infinite;
+}
+
+@keyframes circleMove {
+  0%,
+  100% {
+    clip-path: circle(13% at 85% 50%);
+  }
+  50% {
+    clip-path: circle(13% at 15% 50%);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .epaper_listedNav {
+    display: block;
+    width: auto;
+    margin: 0px 2px;
+  }
+  .rpv-core__minimal-button[aria-label="Open file"] {
+    display: none;
+  }
+
+  .rpv-core__minimal-button[aria-label="Download"] {
+    display: none;
+  }
+
+  .rpv-core__minimal-button[aria-label="Print"] {
+    display: none;
+  }
+  .epaper_listedNav ul {
+    gap: 0;
+    padding: 5px 0px;
+  }
+
+  .epaper_nav-itemss .date-input {
+    display: none;
+  }
+
+  .date-display {
+    display: none;
+  }
+
+  .epaper_nav-itemss {
+    display: block;
+    font-size: 12px;
+    padding: 0;
+    margin: 0px 8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .epaper_nav-itemss:first-child {
+    animation-delay: 0s;
+  }
+
+  .epaper_nav-itemss:nth-child(2) {
+    animation-delay: 0s;
+  }
+
+  .epaper_nav-itemss:last-child {
+    animation-delay: 0s;
+  }
+
+  .epaper_btnview {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    padding: 2%;
+    margin-left: 0px;
+  }
+
+  .epaper_btnview button {
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 6.5em;
+    font-size: 14px;
+  }
+
+  .epaper_btnview button.active {
+    background-color: #1d5299;
+    color: white;
+  }
+
+  .pagination {
+    justify-content: flex-start;
+  }
+
+  .pagination .page-item {
+    margin: -6px;
+  }
+
+  .pagination .page-link {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    background-color: whitesmoke;
+    width: 5.5em;
+  }
+
+  .app-footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: rgba(240, 235, 235, 0.575); */
+    background-color: aliceblue;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .app-footer input[type="date"]::-webkit-calendar-picker-indicator {
+      position: relative; 
+    } */
+
+  .pcpdf-viewer {
+    display: flex;
+  }
+
+  button[data-testid="print__menu"] {
+    display: none;
+  }
+
+  button[data-testid="open__menu"] {
+    display: none;
+  }
+
+  button[data-testid="get-file__download-menu"] {
+    display: none;
+  }
+
+  .mobilepdf-viewer {
+    display: none;
+  }
+
+  .date-input {
+    width: 7.2em;
+    border: none;
+    background-color: #3a61aa;
+    font-size: 26px;
+    color: white;
+    margin-top: 2%;
+    border-radius: 5px;
+  }
+  .nav-text {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+
+  .app-footer button {
+    background-color: #1d5299;
+    color: white;
+    margin: 0% 4%;
+    font-size: 21px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .School_animate {
+    width: 340px;
+    height: 300px;
+  }
+
+  .Leave_hold {
+    width: 55%;
+  }
+
+  .epaper_bottom,
+  .epaper_top {
+    width: 90%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 70%;
+    left: 6%;
+    padding: 1vw;
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+}

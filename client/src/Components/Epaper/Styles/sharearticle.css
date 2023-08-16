@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'Taun_maragadam';
+    src: url('../Assest/Myfonts/TAUN_Maragadam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+
+@font-face {
+    font-family: 'Taun_Taamarai';
+    src: url('../Assest/Myfonts/TAUN_Taamarai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'TAUN_Kurinji';
+    src: url('../Assest/Myfonts/TAUN_Kurinji.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'TAUNPanb';
+    src: url('../Assest/Myfonts/TAUNPanb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'TAUNPann';
+    src: url('../Assest/Myfonts/TAUNPann.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.sharebody {
+    background-color: #ECF3FF;
+    padding: 35px;
+
+}
+
+
+.shareContent {
+    text-align: justify;
+    overflow: hidden;
+    background-color: white;
+    padding: 30px
+}
+
+.sharebody {
+   padding: 0.5%;
+}
+
+
+.sharebody #download {
+    padding: 0;
+}
+
+.vklogo {
+    margin: 10px 0px;
+}
+
+
+.shareContent h2 {
+    color: #0071C8;
+    font-family: 'Taun_maragadam';
+    font-size: 45px;
+}
+
+
+
+.shareContent h4 {
+  font-family: 'Taun_Taamarai';
+    font-size: 25px;
+    text-decoration: underline 2px;
+    text-underline-position: under;
+
+}
+
+
+
+
+.shareContent h5 {
+   font-family: 'TAUN_MeenaBold';
+    font-size: 25px;
+}
+
+
+
+.shareContent h6 {
+    font-family: 'TAUN_Kurinji';
+    font-size: large;
+    font-style: italic;
+}
+
+
+.shareContent p {
+    font-family: 'TAUNPann';
+}
+
+
+.shareContent img {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+   border: 2px solid #3E8AF8
+}
+
+
+.footer {
+    margin: 20px 0px;
+    height: 100px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #D5E4FF;
+}
+
+.add {
+    background-color: white;
+    border: #75B6FF 4px solid;
+    overflow: auto;
+    margin: 5px;
+}
+
+
+
+.addcontent {
+    background-color: white;
+    border: #75B6FF 4px solid;
+    margin: 5px;
+}
+
+
+
+.social-media-icons {
+    background-color: white;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    top: 40%;
+}
+
+
+
+.social-media-icons div {
+    margin-left: 2rem;
+    padding: 5px;
+   height: auto;
+
+}
+
+
+.social-media-icons div::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #007bff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+
+.social-media-icons a:hover::before {
+    transform: scaleX(1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+.social-media-icons svg {
+    width: 30px;
+    height: 30px;
+    color: #333;
+    font-size: 30px;
+}
+
+
+
+.social-media-icons a:hover svg {
+    color: #007bff;
+}
+
+
+
+
+
+@media(max-width: 900px) {
+
+    .vklogo {
+        margin: 20px 0px;
+    }
+
+
+    .vklogo img {
+        width: 75%;
+    }
+
+    .sharebody {
+        padding: 8px;
+        width: auto;
+        height: auto;
+        
+    }
+
+
+    .shareContent {
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+
+    .shareContent h2 {
+        font-family: 'Taun_maragadam';
+        font-size: 30px;
+        text-align: left;
+
+    }
+
+
+    .shareContent h4 {
+        font-family: 'Taun_Taamarai';
+        font-size: 20px;
+        text-decoration: underline 2px;
+        text-underline-position: under;
+
+    }
+
+
+    .shareContent h5 {
+        font-family: 'TAUN_MeenaBold';
+        font-size: 22px;
+
+    }
+
+
+
+    .shareContent h6 {
+        font-family: 'TAUN_Kurinji';
+        font-size: large;
+        font-style: italic;
+
+    }
+
+
+    .shareContent p {
+        font-family: 'TAUNPann';
+
+    }
+
+
+    .shareContent img {
+        width: 100%;
+        float: left;
+        margin-right: 20px;
+        border: 2px solid #3E8AF8
+    }
+
+
+
+    .footer {
+        margin: 20px 0px;
+        height: 100px;
+        /* border: 2px solid blue; */
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #D5E4FF;
+        width: auto;
+        height: auto;
+
+    }
+
+    .add {
+        background-color: white;
+        border: #75B6FF 4px solid;
+        overflow: auto;
+        margin: 3px;
+        width: 250px;
+        height: auto;
+    }
+
+
+
+    .addcontent {
+        background-color: white;
+        border: #75B6FF 4px solid;
+        margin: 3px;
+        width: 250px;
+        height: auto;
+    }
+
+
+
+    .social-media-icons {
+        background-color: white;
+        bottom: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: row;  
+        margin: 0px 50px; 
+        top: 92%;
+    }
+
+
+
+    .social-media-icons div {
+        margin: 10px;
+        padding: 0px;
+       
+    }
+
+
+
+    .social-media-icons a::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background-color: #007bff;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+
+    .social-media-icons a:hover::before {
+        transform: scaleX(1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+
+    .social-media-icons svg {
+        width: 30px;
+        height: 30px;
+        color: #333;
+        font-size: 30px;
+    }
+
+
+
+    .social-media-icons a:hover svg {
+        color: #007bff;
+    }
+
+
+
+
+}

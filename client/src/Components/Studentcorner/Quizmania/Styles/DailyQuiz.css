@@ -1,0 +1,312 @@
+.Dflex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em;
+  margin-left: 0;
+  margin-right: 0%;
+}
+.Dflex-container .flex-AddPanel1 {
+  width:40%;
+  margin-left: 0;
+}
+
+.Dflex-container .flex-AddPanel1 .Ad-R-1,
+.Dflex-container .flex-AddPanel1 .Ad-R-2 {
+  height: auto;
+  width: auto;
+  border: 1px solid rgb(163, 162, 162);
+  margin-bottom: 1.5em;
+  margin-left: 0%;
+  margin-right: 2%;
+}
+
+.Ad-R-2 img{
+  width:100% ;
+}
+
+.Dcontainer1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.5em;
+  justify-content: left;
+}
+
+.Dcontainer1 .Dinfo-Heading {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0.5em;
+}
+
+.Dcontainer1 .Dinfo-Heading .DuserInfo {
+  padding: 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(12, 49, 105);
+}
+
+.Dcontainer1 .Dinfo-Heading .Dtopic-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.1em;
+  margin: 1% 0 1% 0%;
+  background-color: #ffeae2;
+}
+
+.Dcontainer1 .Dinfo-Heading .Dtopic-div .DtopicHeading {
+  font-size: 1em;
+  text-align: left;
+  padding: 0.5em;
+  width: auto;
+  font-weight: bold;
+}
+
+.Dcontainer1 .Dinfo-Heading .Dtopic-div .Dtimes {
+  display: fixed;
+  font-size: 1em;
+  text-align: center;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.Dcontainer1 .Dinfo-Heading .Dbtn-holder {
+  text-align: center;
+}
+
+.Dcontainer1 .Dinfo-Heading .Dbtn-holder .Dstartbtn {
+  color: white;
+  background-color: #005da4;
+  border: 1px;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 16px;
+  text-align: center;
+  width: 10%;
+  cursor: pointer;
+}
+
+.Dcontainer1 .Dquestions {
+  padding: 0.5em;
+  width: auto;
+  margin-left: 0;
+  overflow-y: scroll;
+  /* max-height: 400px; */
+  text-align: left;
+  /* background-image: url("../Asset/doodles.png"); */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+}
+
+.Dcontainer1 .Dtimer {
+  position: fixed;
+  margin-left: 9rem;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.Dcontainer1 .Dquestions .DquizBox {
+  width: auto;
+  margin-top: 1em;
+  text-align: left;
+  /* background-color: white; */
+  background-image: url("../Asset/doodles.png");
+  padding: 1%;
+  padding-left: 3%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Dcontainer1 .Dquestions .DquizBox .DquestionsContent {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Dcontainer1 .Dquestions ul {
+  background-color: white;
+  height: auto;
+}
+
+.Dcontainer1 .Dquestions li {
+  width: 100%;
+  list-style: none;
+}
+
+.Dcontainer1 .Dquestions ul li label {
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.Dcontainer1 .Dquestions ul li label:hover {
+  text-decoration: underline;
+  color: #f0190a;
+}
+
+.Dcontainer1 .Dquestions ul li label input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+.Dcontainer1 .Dbtn {
+  align-content: center;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1em;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Dbtn-conatiner{
+  display: flex;
+  justify-content: center;
+}
+.Dbtn-conatiner .Dsbtn {
+  color: white;
+  background-color: #005da4;
+  border: 1px;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 16px;
+  text-align: center;
+  width: 10%;
+  cursor: pointer;
+  
+}
+
+.Ddialog {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: large;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.Ddialog .Ddialog-buttons .Dbtn {
+  color: white;
+  background-color: #005da4;
+  border: 1px;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 16px;
+  text-align: center;
+  width: 20%;
+  cursor: pointer;
+  margin: 5%;
+}
+
+.Ddialog button:hover {
+  background-color: #ddd;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .Dflex-container {
+    flex-direction: column;
+    margin: 0.2em;
+    background-image: url("../../../../../public/sc-pop3-1@2x.webp");
+  }
+
+  .Dflex-container .flex-AddPanel1{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Dflex-container .flex-AddPanel1 .Ad-R-1,
+  .Dflex-container .flex-AddPanel1 .Ad-R-2 {
+    height: 10em;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Ad-R-2 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  .Dcontainer1 .Dinfo-Heading .Dtopic-div .DtopicHeading {
+    font-size: 1em;
+  }
+
+  .Dcontainer1 .Dinfo-Heading .Dtopic-div .Dtime {
+    font-size: 1em;
+  }
+
+  .Dcontainer1 .Dinfo-Heading .Dbtn-holder .Dstartbtn {
+    font-size: 1em;
+    width: 20%;
+  }
+
+  .Dcontainer1 .Dquestions {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0%;
+    max-height: 500px;
+  }
+
+  .Dcontainer1 .Dquestions .DquizBox {
+    padding: 2%;
+    min-width: 320px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .Dcontainer1 .Dquestions .DquizBox .DquestionsContent {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .Dcontainer1 .Dquestions ul li label {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .Dcontainer1 .Dquestions ul {
+    width: 100%;
+  }
+
+  .Dcontainer1 .Dbtn-conatiner .Dbtn {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Dbtn-conatiner .Dsbtn {
+    padding: 2%;
+    font-size: 16px;
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Ddialog {
+    width: 90%;
+  }
+
+  .Ddialog .Ddialog-buttons .Dbtn {
+    margin: 2%;
+    width: 40%;
+    font-size: 1em;
+  }
+}

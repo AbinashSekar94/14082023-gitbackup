@@ -1,0 +1,11 @@
+.privacy_content h1{
+  text-align: left;
+  margin: 2% 0%;
+}
+
+.privacy_content p{
+  text-align: left;
+  margin: 1% 0%; 
+  font-size: medium;
+  font-weight: 500;
+}

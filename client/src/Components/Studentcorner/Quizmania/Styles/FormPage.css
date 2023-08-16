@@ -1,0 +1,96 @@
+.form-container {
+  background-image: url("../../../../../public/Background1-01.webp");
+  background-color: #b3dcf8;
+}
+.form-containers {
+  margin: 0 auto;
+  padding: 20px;
+  background-image: linear-gradient(rgb(2, 45, 109), rgb(43, 151, 252));
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 2%;
+}
+.form-containers-context {
+  padding: 5px 5px 0 5px;
+  width: 500px;
+}
+.form-containers .form-containers-context label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.form-containers .form-containers-context input,
+.form-containers .form-containers-context select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #144f9c;
+  color: white;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: -0.3px 0.4px 9.5px #1d262eb8;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container button:hover {
+  background-color: #144f9c;
+}
+
+.heading {
+  font-size: medium;
+  color: #f4f5f7;
+}
+
+.content1 {
+  font-size: medium;
+  color: #f4f5f7;
+}
+
+.errorMsg {
+  margin-top: 15px;
+}
+
+.terms {
+  padding: 5px;
+  background-color: #f4f5f7;
+  font-weight: bold;
+}
+.terms input {
+  margin-right: 15px;
+}
+
+.error {
+  color: #f4f4f4;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-containers {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+
+  .form-containers-context {
+    padding: 10px;
+    width: auto;
+  }
+}

@@ -1,0 +1,37 @@
+.datepicker-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .react-datepicker {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .react-datepicker__triangle {
+    display: none;
+  }
+  
+  .react-datepicker-popper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .react-datepicker {
+      max-width: 480px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .react-datepicker {
+      max-width: 640px;
+    }
+  }
+  

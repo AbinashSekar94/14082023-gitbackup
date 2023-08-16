@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+  font-family: "Taun_Taamarai";
+  src: url("../Epaper//Assest/Myfonts/TAUN_Taamarai.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.page-holder {
+  width: 100%;
+  margin: 0;
+  background-image: radial-gradient(#005da4, #171d54);
+  display: flex;
+  flex-direction: column;
+}
+
+.first-component {
+  background-image: url("../../../public/Background1-01.webp");
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.button-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 0.5%;
+  width: 85%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-holder img {
+  border: none;
+  background-color: rgb(84, 100, 189);
+  padding: 0;
+  border: 0;
+  border-radius: 12.5px;
+  width: auto;
+  cursor: pointer;
+  width: 17%;
+}
+
+.btn-default {
+  background-color: inherit;
+  /* color: #f6f8fc; */
+}
+.btn-primary {
+  background-color: inherit;
+  /* color: #fdfdfd; */
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 -10px #fffc46;
+  }
+  40% {
+    box-shadow: 0 0 10px #fffc46;
+  }
+  60% {
+    box-shadow: 0 0 10px #fffc46;
+  }
+  100% {
+    box-shadow: 0 0 -10px #fffc46;
+  }
+}
+
+.button-glow {
+  animation: glowing 2000ms infinite;
+}
+
+.imageHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: -8%;
+  margin-top: 0;
+}
+.cloud-Component {
+  width: 60%;
+  height: auto;
+  margin-left: 2%;
+  margin-bottom: 0;
+}
+.cloud-icon {
+  height: auto;
+  width: 100%;
+  margin-left: 0;
+}
+
+.contentBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  justify-content:flex-start ;
+  padding-left: 5%;
+}
+.contentBox1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  width: 90%;
+  /* padding: 1%; */
+  background-color: inherit;
+}
+
+.whyVetrikodi {
+  padding: 0%;
+  width: fit-content;
+  font-weight: bolder;
+  color: white;
+  font-size: 2vw;
+  /* width: 21.5ch; */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #ffffff;
+  animation: cursor 1s step-start infinite, text 4s steps(15) alternate infinite;
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #fdfdfb;
+  }
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 15ch;
+  }
+}
+.language {
+  margin-left: 80%;
+}
+.language button {
+  background: #005da4;
+  border: 1px solid #6c757d;
+  color: #ffffff;
+  font-size: 1.4vw;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Taun_Taamarai";
+  padding: 0px 10px;
+  box-shadow: 0.8px 0.4px 12.5px #9dd2ffb8;
+}
+
+.tamilFont {
+  font-family: "Taun_Taamarai";
+  font-size: 1.3vw;
+  line-height: 1.8vw;
+}
+.aboutUsBox {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1%;
+  font-weight: bolder;
+  color: white;
+  font-size: 1.4vw;
+  text-align: center;
+  background-color: #005da4;
+  margin-top: 2%;
+  margin-left: 1%;
+  cursor: pointer;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: -0.3px 0.4px 9.5px #9dd2ffb8;
+}
+.aboutus {
+  cursor: pointer;
+}
+
+.vetriKodi-content {
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.07421875vw;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 2%;
+
+  /* background-image:linear-gradient(to right,#15255E,#0C3A79);
+  box-shadow: 1.8352941274642944px 3.416470527648926px 10.51px
+    rgba(207, 219, 248, 0.18); */
+  /* text-indent: 10%; */
+}
+.girl-holder {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0%;
+  margin-bottom: 0;
+}
+.girl-1 {
+  position: relative;
+  height: auto;
+  width: 85%;
+  margin-bottom: 140px;
+}
+.HomeLottie {
+  position: absolute;
+  width: 15%;
+  margin-left: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .button-holder {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin: 5% auto 1%;
+  }
+
+  .button-holder img {
+    border: none;
+    background-color: inherit;
+    font-size: medium;
+    padding: 0;
+    border: 0.5px;
+    border-radius: 18px;
+    width: auto;
+    cursor: pointer;
+    width: 30%;
+  }
+
+  .imageHolder {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+  .contentBox {
+    justify-content: center;
+    /* max-width: fit-content; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .contentBox1 {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+  .vetriKodi-content {
+    width: 100%;
+    /* margin:0 5px 0 5px; */
+    font-size: 16px;
+    /* line-height: 1.5rem; */
+    /* word-break: ; */
+    font-weight: bold;
+  }
+  .girl-holder {
+    width: 50%;
+    margin: 0;
+  }
+  .whyVetrikodi {
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+  }
+  .aboutUsBox {
+    width: -moz-fit-content;
+  width: fit-content;
+  padding: 1%;
+  font-weight: bolder;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  background-color: #005da4;
+  margin-top: 2%;
+  margin-left: 1%;
+  cursor: pointer;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: -0.3px 0.4px 9.5px #9dd2ffb8;
+  }
+
+  .girl-holder {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .girl-1 {
+    height: auto;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1rem;
+  }
+  .HomeLottie {
+    position: absolute;
+    width: 30%;
+    margin-left: 23%;
+    margin-top: 20%;
+  }
+
+  .language {
+    margin-left: 80%;
+  }
+  .language button {
+    background: #005da4;
+    border: 1px solid #6c757d;
+    color: #ffffff;
+    font-size: 22px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Taun_Taamarai";
+    padding: 0px 10px;
+    box-shadow: 0.8px 0.4px 12.5px #9dd2ffb8;
+  }
+
+  .tamilFont {
+    font-family: "Taun_Taamarai";
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.7rem;
+  }
+}

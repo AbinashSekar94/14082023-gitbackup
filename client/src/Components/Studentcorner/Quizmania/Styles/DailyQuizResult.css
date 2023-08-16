@@ -1,0 +1,335 @@
+.dflex-container2 {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  margin-left: 0;
+  margin-right: 0%;
+}
+
+.dflex-container2 .dcontent .dnewResultImageContent {
+  display: flex;
+  flex-direction: row;
+  /* background-image: linear-gradient(#171d54, #005da4); */
+  color: #ffffff;
+  justify-content: space-around;
+}
+.dflex-container2 .dcontent .dnewResultImageContent .dnewResultContent {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  justify-content: center;
+  padding: 1%;
+  width: 30%;
+}
+.dflex-container2
+  .dcontent
+  .dnewResultImageContent
+  .dnewResultContent
+  .dresult-box {
+  padding: 1%;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.dnewResultContent .dscore-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.dnewResultContent .dscore-container .dresult-score {
+  padding: 5%;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: larger;
+  font-weight: bold;
+  border: 1px;
+  border-radius: 5%;
+  width: 50%;
+}
+
+.dflex-container2 .dcontent .score-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 1%;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.dflex-container2 .dflex-AddPanel1 {
+  width: auto;
+}
+
+.dflex-container2 .dflex-AddPanel1 .dAd-R-2 {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dflex-container2 .dflex-AddPanel1 .dAd-R-2 img {
+  height: auto;
+  width: auto;
+  margin-right: 0;
+  margin-bottom: 2%;
+}
+
+.dflex-container2 .dcontent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+.dflex-container2 .dcontent .dHeading1 {
+  width: auto;
+  height: auto;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(49, 118, 247);
+  padding: 0.5%;
+}
+.dflex-container2 .dcontent .dHeading2 {
+  width: auto;
+  height: auto;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(49, 118, 247);
+  padding: 0.5%;
+}
+
+.dflex-container2 .dcontent .dscoreboard {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(196, 194, 194);
+  width: auto;
+  height: auto;
+  padding: 1%;
+}
+
+.dflex-container2 .dcontent .dscoreboard .dChart {
+  display: block;
+  height: auto;
+  width: 20%;
+  padding: 5px;
+  border: 1px solid rgb(215, 229, 238);
+}
+
+.dflex-container2 .dcontent .dscoreboard .dChart .dDoughnut {
+  height: auto;
+  width: 20%;
+}
+
+.dflex-container2 .dcontent .dscoreboard .dlistContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+.dflex-container2 .dcontent .dscoreboard .dlistContainer .dtopList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.dflex-container2 .dcontent .dscoreboard .dlistContainer .dtopList .dfirstlist {
+  width: 100%;
+  padding: 1%;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(7, 19, 34);
+}
+
+li {
+  padding: 5px;
+  list-style: none;
+  margin-left: 0;
+  text-align: left;
+}
+
+li.correct {
+  background-color: rgb(175, 252, 175);
+}
+li.wrong {
+  background-color: #f89797;
+}
+li.unselected {
+  background-color: none;
+}
+
+.dquestionContent {
+  overflow-y: scroll;
+  max-height: 400px;
+  padding: 0.5%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.dContent-Text {
+  color: #144f9c;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 1%;
+}
+.dresult-questionBox {
+  padding: 1%;
+  text-align: left;
+}
+.dquizBox1 {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-image: url("../Asset/doodles.png");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/* li.incorrect {
+    background-color: rgb(245, 154, 154);
+  } */
+
+/* For screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .dflex-container2 {
+    display: block;
+    margin: 5px;
+  }
+
+  .dflex-container2 .dcontent .dnewResultImageContent {
+    display: block;
+    background-image: linear-gradient(#171d54, #005da4);
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .dflex-container2 .dcontent .dnewResultImageContent .dnewResultContent {
+    width: 100%;
+    padding: 2% 0;
+  }
+
+  .dflex-container2 .dcontent .dnewResultContent .dresult-box {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .dflex-container2 .dcontent .dnewResultContent .dscore-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .dflex-container2
+    .dcontent
+    .dnewResultContent
+    .dscore-container
+    .dresult-score {
+    padding: 5%;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+  }
+
+  .dflex-container2 .result-flex-AddPanel1 .result-Ad-R-2 {
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+
+  .dflex-container2 .dcontent {
+    padding: 2%;
+  }
+
+  .dflex-container2 .dcontent .dresult-scoreboard {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .dflex-container2 .dcontent .dresult-scoreboard .result-Chart {
+    width: 50%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dflex-container2
+    .dcontent
+    .dresult-scoreboard
+    .result-Chart
+    .result-Doughnut {
+    width: 50%;
+  }
+
+  .dflex-container2 .dcontent .dresult-scoreboard .result-listContainer {
+    padding: 0;
+  }
+
+  .dflex-container2
+    .dcontent
+    .dresult-scoreboard
+    .result-listContainer
+    .result-topList {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dflex-container2
+    .dcontent
+    .dresult-scoreboard
+    .result-listContainer
+    .result-topList
+    .result-firstlist {
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .dflex-container2 .dcontent .dresult-scoreboard .result-listContainer ul {
+    width: 100%;
+    margin: 0;
+  }
+
+  .dquestionContent {
+    max-height: none;
+    margin-top: 5%;
+  }
+
+  .dcontent-Text {
+    margin-top: 10%;
+  }
+
+  li {
+    padding: 2%;
+  }
+
+  .dflex-container2 .dcontent .result-Heading1 {
+    font-size: 22px;
+    margin-bottom: 5%;
+  }
+
+  .dflex-container2 .dcontent .result-Heading2 {
+    font-size: 22px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .dflex-container2 .result-flex-AddPanel1 .result-Ad-R-2 {
+    height: auto;
+    width: auto;
+    margin-left: 0;
+  }
+  .dflex-container2 .result-flex-AddPanel1 .result-Ad-R-2 img {
+    width: 100%;
+  }
+}

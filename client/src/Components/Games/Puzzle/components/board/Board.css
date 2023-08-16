@@ -1,0 +1,32 @@
+.game{
+  position: relative;
+  align-items: center;
+   
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(4,var(--size));
+  grid-template-rows: repeat(4,var(--size));
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 0px 0px solid #4eada1;
+  height: 50%;  /*recently changed */
+  padding-bottom: 0px;
+}
+
+@media only screen and (max-width:600px)
+{
+  .game{
+    position: relative;
+    align-items: center;
+     
+  }
+  .board{
+    grid-template-columns: repeat(4,var(--size1));
+    grid-template-rows: repeat(4,var(--size1));
+    padding-bottom:0px;
+    height: 50vh; 
+    margin-top:-100px;
+  }
+}

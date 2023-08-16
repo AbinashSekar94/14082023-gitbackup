@@ -1,0 +1,120 @@
+.sCorner-container {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  height: 100%;
+
+  /* background-color: inherit;
+
+    border-bottom-right-radius: 25%;
+
+    border-bottom-left-radius: 25%; */
+
+  background-image: url("../../../../../public/SCBackground.webp");
+
+  background-repeat: no-repeat;
+
+  /* background-attachment: fixed; */
+
+  background-size: contain;
+
+  background-color: white;
+}
+
+.sfirstCorner-conatiner {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  margin: 5% 5% 1% 5%;
+
+  height: 100%;
+}
+
+.sfirstCorner-conatiner img {
+  cursor: pointer;
+
+  width: 30%;
+}
+
+.ssecondCorner-container {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-evenly;
+
+  margin: 5% 5% 5% 5%;
+}
+
+.ssecondCorner-container img {
+  cursor: pointer;
+
+  width: 30%;
+}
+
+.sQuizManiaCover {
+  margin-top: 4rem;
+}
+
+.sdialogue_comingsoon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 20%;
+  left: 10%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background: #023669;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .sCorner-container {
+    flex-direction: column;
+
+    border-bottom-right-radius: 0;
+
+    border-bottom-left-radius: 0;
+
+    background: none;
+  }
+
+  .sfirstCorner-conatiner,
+  .ssecondCorner-container {
+    flex-direction: row;
+  }
+
+  .sfirstCorner-conatiner img {
+    cursor: pointer;
+
+    width: 50%;
+  }
+
+  .ssecondCorner-container img {
+    cursor: pointer;
+
+    width: 50%;
+  }
+
+  .sdialogue_comingsoon{
+  width: auto;
+  left: 30%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background: none;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: none;
+  }
+}

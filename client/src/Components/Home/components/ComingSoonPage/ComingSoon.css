@@ -1,0 +1,205 @@
+.firstPage-content {
+  display: block;
+  background-color: white;
+  margin: 0;
+}
+.comingSoon {
+  font-weight: bolder;
+  font-size: 28px;
+  color: #123f84;
+  margin-top: -5%;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.comingSoonBox {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  /* margin-bottom: 5%; */
+}
+.events1 {
+  width: 19.42rem;
+  height: 26.73rem;
+  font-size: 1.15rem;
+  text-align: center;
+  box-shadow: 1.8352941274642944px 3.416470527648926px 5.51px
+    rgba(32, 33, 35, 0.18);
+  background-color: #f4f8fa;
+}
+.events1 .HalfCircle-icon {
+  width: 12.25rem;
+  height: auto;
+  margin-top: 12rem;
+}
+
+.events-1-icon {
+  width: 9.25rem;
+  height: auto;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+.events-1-icon img {
+  transition: transform 0.3s ease-out;
+}
+.events2 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10.09px;
+  background: linear-gradient(101.35deg, #171d54, #005da4);
+  padding: 1%;
+  margin-top: 5%;
+}
+.students-can-participate {
+ margin-top: 5%;
+}
+.students-can-participate-container {
+  color: #0a3e7e;
+}
+
+.career-guidance {
+  width: fit-content;
+  color: white;
+}
+.careerguidance {
+  box-shadow: 1.8352941274642944px 3.416470527648926px 5.51px
+    rgba(32, 33, 35, 0.18);
+}
+.career {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10.09px;
+  background: linear-gradient(101.35deg, #171d54, #005da4);
+  padding: 1%;
+  margin-top: 5%;
+}
+.choose-the-career-container {
+  color: #0a3e7e;
+}
+
+.careerguidance {
+  width: 19.42rem;
+  height: 26.73rem;
+  font-size: 1.15rem;
+  text-align: center;
+  background-color: #f4f8fa;
+}
+
+.careerguidance .HalfCircle-icon {
+  width: 12.25rem;
+  height: auto;
+  margin-top: 12rem;
+}
+.careerguidance-1-icon {
+  width: 8.25rem;
+  height: auto;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+.careerguidance-1-icon img {
+  transition: transform 0.3s ease-out;
+}
+
+.share-your-talents {
+  display: inline-block;
+  color: #0a3e7e;
+  width: 15.49rem;
+}
+
+.video {
+  width: 19.28rem;
+  height: 26.73rem;
+  font-size: 1.15rem;
+  box-shadow: 1.8352941274642944px 3.416470527648926px 5.51px
+    rgba(32, 33, 35, 0.18);
+  text-align: center;
+  background-color: #f4f8fa;
+}
+.video .HalfCircle-icon {
+  width: 12.25rem;
+  height: auto;
+  margin-top: 12rem;
+}
+.videos-1-icon {
+  width: 8.25rem;
+  height: auto;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+.videos-1-icon img {
+  transition: transform 0.3s ease-out;
+}
+
+.video1 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10.09px;
+  background: linear-gradient(101.35deg, #171d54, #005da4);
+  padding: 1%;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .comingSoonBox {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -7%;
+    
+  }
+  .comingSoon{
+    margin-top: -25%;
+  }
+
+  .events1,
+  .careerguidance,
+  .video {
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .events2,
+  .career,
+  .video1 {
+    text-align: center;
+    width: 70%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .careerguidance .HalfCircle-icon,
+  .video .HalfCircle-icon,
+  .events1 .HalfCircle-icon {
+    display: none;
+  }
+
+  .events-1-icon,
+  .careerguidance-1-icon,
+  .videos-1-icon {
+    margin-top: 20px;
+  }
+
+  .events-1-icon img,
+  .careerguidance-1-icon img,
+  .videos-1-icon img {
+    background-color: white;
+  }
+}
