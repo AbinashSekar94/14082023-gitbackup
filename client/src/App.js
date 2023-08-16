@@ -105,7 +105,7 @@ function App() {
           <Route exact path="/Registration" element={<FormPage />} />
           <Route
             key="main"
-            path="/Main"
+            path="/quiz-welcome"
             element={
               <Main
                 setCategorys={setCategorys}

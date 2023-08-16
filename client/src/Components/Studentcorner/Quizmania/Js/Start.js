@@ -67,11 +67,11 @@ function Start() {
               // Navigate to "/Registeration" if response is empty or null
               navigate("/Registration");
             } else {
-              // Process response data and navigate to "/Main"
+              // Process response data and navigate to "/quiz-welcome"
               sessionStorage.setItem("userInfo", JSON.stringify(res.data[0]));
 
               // console.log(res.data);
-              navigate("/Main");
+              navigate("/quiz-welcome");
             }
           } catch (error) {
             console.error("Error:", error);

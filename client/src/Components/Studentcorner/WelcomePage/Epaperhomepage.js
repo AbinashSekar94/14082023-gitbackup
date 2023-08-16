@@ -17,7 +17,7 @@ export default function Epaperhomepage() {
   return (
     <>
       <Helmet>
-        <title> E-Paper Vetrikkodi, DigiPaper வெற்றிக்கொடி இ-பேப்பர்</title>
+        <title>E-Paper Vetrikkodi, DigiPaper வெற்றிக்கொடி இ-பேப்பர்</title>
 
         <meta
           name="description"

@@ -213,7 +213,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <NavLink
-                to="/Motivation"
+                to="/motivation"
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
