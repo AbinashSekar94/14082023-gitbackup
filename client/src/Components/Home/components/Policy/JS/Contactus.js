@@ -15,7 +15,7 @@ export default function Contactus() {
 
         <meta
           name="keywords"
-          content="vetrikkodi newspaper, vetrikodi newspaper, vetrikodi online, vetrikkodi, vetrikodi phone number, வெற்றிக்கோடி, தமிழ், contact us, vetrikkodi contact number, epaper contact number, vetrikkodi advertisment number, "
+          content="vetrikkodi contact, vetrikodi contact, vetrikkodi address, vetrikodi phone number, vetrikkodi contact number, epaper contact number, vetrikkodi advertisment number, contact information, get in touch, reach out, contact details, contact form, customer support, contact email, contact phone number"
         />
       </Helmet>
 

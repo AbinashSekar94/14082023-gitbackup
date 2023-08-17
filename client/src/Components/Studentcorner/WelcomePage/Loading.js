@@ -39,15 +39,16 @@ const Loading = () => {
   return (
     <div>
       <Helmet>
-        <title>Student Corner - Vetrikkodi </title>
         <meta
           name="description"
           content="A place where academic excellence meets holistic growth. Attend varity of quizzes and get reward, Stay updated about your exams, Model question papers for board exams, Effective preparation techniques for exams "
         />
         <meta
           name="keywords"
-          content="vetrikkodi newspaper, vetrikodi newspaper, vetrikodi online, vetrikkodi, vetrikodi student corner, வெற்றிக்கோடி, தமிழ், quizzes for kids, quizzes, online quizzes for free, gk quizzes, science quizzes, exams time table, samacheer kalvi books, board exams, time table, model question papers,TN School Books,tn textbooks"
+          content="vetrikkodi student corner, vetrikodi student corner, Quiz Mania, quiz mania, Exam Updates, Question Bank, Study Tips, samacheer kalvi books, model question papers, tn textbooks, TN School Books"
         />
+
+        <title>Student Corner - Vetrikkodi </title>
       </Helmet>
 
       <div className="loading-top-ad">

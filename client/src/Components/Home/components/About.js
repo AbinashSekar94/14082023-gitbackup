@@ -15,7 +15,7 @@ export default function About() {
 
         <meta
           name="keywords"
-          content="vetrikkodi newspaper, vetrikodi newspaper, vetrikodi online, vetrikkodi, vetrikodi phone number, வெற்றிக்கோடி, தமிழ், about us, vetrikkodi about us, epaper contact number, vetrikkodi advertisment number, "
+          content="vetrikkodi, vetrikodi phone number, vetrikkodi about us, vetrikkodi advertisment number"
         />
       </Helmet>
       <Container>

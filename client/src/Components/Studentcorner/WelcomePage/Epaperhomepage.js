@@ -17,17 +17,16 @@ export default function Epaperhomepage() {
   return (
     <>
       <Helmet>
-        <title>E-Paper Vetrikkodi, DigiPaper வெற்றிக்கொடி இ-பேப்பர்</title>
-
         <meta
           name="description"
           content=" பள்ளிகளுக்கென்று ஒரு பிரத்தியேகமான நாளிதழ்  நம் 'வெற்றிக்கொடி'. மாணவர்களை கவரும் வகையில் பல தலைப்புகளில் இப்போது இ-பேப்பர் வடிவில்."
         />
-
         <meta
           name="keywords"
-          content="vetrikodi epaper, tamil epaper, vetrikkodi, vetrikkodi digipaper, digipaper, vetrikodi newspaper, வெற்றிக்கொடி இ-பேப்பர், தமிழ் இ-பேப்பர், Epaper, tamil epaper online, hindu tamil epaper, best tamil epaper, best tamil epaper in tamil, best epaper in india"
+          content="vetrikkodi epaper, vetrikodi epaper, tamil epaper, vetrikkodi, vetrikkodi digipaper, digipaper, vetrikodi newspaper, வெற்றிக்கொடி இ-பேப்பர், தமிழ் இ-பேப்பர், Epaper, tamil epaper online, hindu tamil epaper, best tamil epaper, best epaper in india"
         />
+
+        <title>E-Paper Vetrikkodi, DigiPaper வெற்றிக்கொடி இ-பேப்பர்</title>
       </Helmet>
       <div className="Epaper_homepage">
         <div className="fixed-column">
@@ -91,13 +90,7 @@ export default function Epaperhomepage() {
                 </div>
 
                 <div className="center_halves_images">
-                  <img
-                    src={Epaper_mob}
-                    data-aos="zoom-in-up"
-                    data-aos-offset="300"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in-sine"
-                  />
+                  <img src={Epaper_mob} />
                 </div>
               </div>
 

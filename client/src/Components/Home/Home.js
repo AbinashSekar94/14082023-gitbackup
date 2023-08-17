@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="vetrikkodi newspaper, vetrikodi newspaper, vetrikodi online, vetrikkodi home page, vetrikodi epaper, vetrikodi digipaper, students epaper, ePaper, digipaper, vetrikodi quizzes, vetrikkodi, games, வெற்றிக்கோடி இபேப்பர், வெற்றிக்கோடி, தமிழ், tamil epaper online download, download epaper, vetrikkodi epaper"
+          content="School Student news in tamil, School Student update in tamil, vetrikkodi newspaper, vetrikodi online, vetrikkodi website, vetrikkodi home page, vetrikodi epaper, vetrikodi digipaper, students epaper, ePaper, digipaper, vetrikodi quizzes, vetrikkodi games, வெற்றிக்கோடி இபேப்பர், வெற்றிக்கோடி, tamil epaper online download, download epaper, vetrikkodi epaper"
         />
       </Helmet>
 

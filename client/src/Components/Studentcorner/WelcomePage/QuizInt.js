@@ -116,24 +116,24 @@ export default function QuizInt() {
     navigate("/epaper");
   }
 
-  function buttonDailyquiz(){
+  function buttonDailyquiz() {
     navigate("/quizint");
   }
 
   return (
     <div>
       <Helmet>
-        <title>
-        Quiz Mania - Vetrikkodi
-        </title>
         <meta
           name="description"
           content=" A world of exhilarating quizzes across a diverse range of categories. From General Knowledge to Aptitude, Science to Social Science, and even Sports, we've curated a rich variety of topics that will challenge and stimulate your intellect."
         />
         <meta
-          name="keywords"
-          content="vetrikkodi newspaper, vetrikodi newspaper, vetrikodi online, quiz mania, vetrikkodi, vetrikodi student corner, வெற்றிக்கோடி, தமிழ், quizzes for kids, quizzes, online quizzes for free, gk quizzes, science quizzes, Social Science quizzes, quiz, vetrikodi quizzes, today quiz, sports quiz, cricket quiz, quiz rewards, online quizzes for kids"
-        />
+  name="keywords"
+  content="student quiz, quiz game, vetrikodi quiz, vetrikkodi quiz, vetrikkodi student corner, vetrikodi student corner, Quiz Mania, quiz mania, Exam Updates, Question Bank, Study Tips, samacheer kalvi books, model question papers, tn textbooks, TN School Books"
+/>
+
+
+        <title>Quiz Mania - Vetrikkodi</title>
       </Helmet>
       <div className="quiz-int-container">
         <div className="ad left-ad">
@@ -165,9 +165,7 @@ export default function QuizInt() {
               quiz categories, each designed to cater to diverse interests and
               aptitudes.
             </div>
-            <div className="block-subhead">
-              Our list of categories
-            </div>
+            <div className="block-subhead">Our list of categories</div>
             <div className="quizmania_categories">
               <div className="quizmania_category_main">
                 <div className="quizmania_category_content">
@@ -196,28 +194,22 @@ export default function QuizInt() {
                 />
               </div>
             </div>
-            <div className="block-subhead">
-              General Knowledge
-            </div>
+            <div className="block-subhead">General Knowledge</div>
             <div className="quizmania-gk">
               <div className="quizmania-maindiv">
                 <div className="block-body">
-                  
-                    Welcome to our captivating General Knowledge (GK) category,
-                    where fascinating topics await your exploration, from
-                    history and geography to science and technology. Delve into
-                    meticulously crafted GK quizzes like GK Quiz 1, GK Quiz 2,
-                    and more, igniting your curiosity and pushing the boundaries
-                    of your intellect.
-                  
+                  Welcome to our captivating General Knowledge (GK) category,
+                  where fascinating topics await your exploration, from history
+                  and geography to science and technology. Delve into
+                  meticulously crafted GK quizzes like GK Quiz 1, GK Quiz 2, and
+                  more, igniting your curiosity and pushing the boundaries of
+                  your intellect.
                 </div>
                 <div className="side_image">
                   <img
                     src={gkimage}
-                    
                     alt="heading_image"
                     style={{ color: "white" }}
-                    
                   />
                 </div>
               </div>
@@ -249,9 +241,7 @@ export default function QuizInt() {
                 EXPAND KNOWLEDGE
               </button>
             </div>
-            <div className="block-subhead">
-              Aptitude
-            </div>
+            <div className="block-subhead">Aptitude</div>
             <div className="quizmania-aptitude">
               <div className="quizmania-aptitude_main">
                 <div>
@@ -262,39 +252,34 @@ export default function QuizInt() {
                     style={{ color: "white" }}
                   />
                 </div>
-                
+
                 <div className="block-body">
-                    Welcome to the Aptitude Challenge! If you have a knack for
-                    numbers and logic, this category is tailor-made for you.
-                    Prepare to be captivated by brain-teasers, intriguing
-                    puzzles, and thought-provoking reasoning challenges that
-                    will elevate your problem-solving prowess to new heights.
-                    Whether it's unleashing your numerical aptitude or mastering
-                    critical reasoning, our Aptitude quizzes will be a thrilling
-                    adventure for your mind.
-                  </div>
-                
+                  Welcome to the Aptitude Challenge! If you have a knack for
+                  numbers and logic, this category is tailor-made for you.
+                  Prepare to be captivated by brain-teasers, intriguing puzzles,
+                  and thought-provoking reasoning challenges that will elevate
+                  your problem-solving prowess to new heights. Whether it's
+                  unleashing your numerical aptitude or mastering critical
+                  reasoning, our Aptitude quizzes will be a thrilling adventure
+                  for your mind.
+                </div>
               </div>
               <button className="button_Holder" onClick={buttonClick}>
                 Test Yourself
               </button>
             </div>
-            <div className="block-subhead">
-              Science
-            </div>
+            <div className="block-subhead">Science</div>
             <div className="quizmania-science">
               <div className="quizmania-science_main">
-              <div className="block-body">
-                  
-                    Embark on a captivating journey of exploration with our
-                    Science category, where curiosity meets knowledge. Immerse
-                    yourself in the captivating world of biology, physics,
-                    chemistry, and astronomy, as each quiz unravels the
-                    mysteries of the universe. Unleash your inner scientist and
-                    quench your thirst for discovery as you delve deeper into
-                    the realms of science. Let your passion for learning soar
-                    high as you uncover the wonders that lie within the cosmos.
-                  
+                <div className="block-body">
+                  Embark on a captivating journey of exploration with our
+                  Science category, where curiosity meets knowledge. Immerse
+                  yourself in the captivating world of biology, physics,
+                  chemistry, and astronomy, as each quiz unravels the mysteries
+                  of the universe. Unleash your inner scientist and quench your
+                  thirst for discovery as you delve deeper into the realms of
+                  science. Let your passion for learning soar high as you
+                  uncover the wonders that lie within the cosmos.
                 </div>
                 <div className="quizmania-science_img">
                   <img
@@ -309,9 +294,7 @@ export default function QuizInt() {
                 Discover Science
               </button>
             </div>
-            <div className="block-subhead">
-              Social Science
-            </div>
+            <div className="block-subhead">Social Science</div>
             <div className="quizmania-socscience">
               <div className="quizmania-socience_main">
                 <div className="quizmania-socience-img">
@@ -323,39 +306,33 @@ export default function QuizInt() {
                   />
                 </div>
                 <div className="block-body">
-                  
-                    Welcome to the Aptitude Challenge! If you have a knack for
-                    numbers and logic, this category is tailor-made for you.
-                    Prepare to be captivated by brain-teasers, intriguing
-                    puzzles, and thought-provoking reasoning challenges that
-                    will elevate your problem-solving prowess to new heights.
-                    Whether it's unleashing your numerical aptitude or mastering
-                    critical reasoning, our Aptitude quizzes will be a thrilling
-                    adventure for your mind.
-                  
+                  Welcome to the Aptitude Challenge! If you have a knack for
+                  numbers and logic, this category is tailor-made for you.
+                  Prepare to be captivated by brain-teasers, intriguing puzzles,
+                  and thought-provoking reasoning challenges that will elevate
+                  your problem-solving prowess to new heights. Whether it's
+                  unleashing your numerical aptitude or mastering critical
+                  reasoning, our Aptitude quizzes will be a thrilling adventure
+                  for your mind.
                 </div>
               </div>
               <button className="button_Holder" onClick={buttonClick}>
                 Explore Now
               </button>
             </div>
-            <div className="block-subhead">
-              Sports
-            </div>
+            <div className="block-subhead">Sports</div>
             <div className="quizmania-sports">
               <div className="quizmania-sports_main">
-              <div className="block-body">
-                  
-                    Calling all sports enthusiasts! Get ready for an
-                    exhilarating experience with our Sports category that will
-                    send your adrenaline soaring. Don your sports caps and
-                    showcase your expertise as you dive into a world of various
-                    sports, legendary athletes, and thrilling sporting events.
-                    From the exhilarating moments on the field to the
-                    history-making triumphs, our Sports category is designed to
-                    ignite your passion and immerse you in the thrilling world
-                    of sports. So, let the games begin!
-                  
+                <div className="block-body">
+                  Calling all sports enthusiasts! Get ready for an exhilarating
+                  experience with our Sports category that will send your
+                  adrenaline soaring. Don your sports caps and showcase your
+                  expertise as you dive into a world of various sports,
+                  legendary athletes, and thrilling sporting events. From the
+                  exhilarating moments on the field to the history-making
+                  triumphs, our Sports category is designed to ignite your
+                  passion and immerse you in the thrilling world of sports. So,
+                  let the games begin!
                 </div>
                 <div className="quizmania-sports_img">
                   <img
@@ -370,9 +347,7 @@ export default function QuizInt() {
                 Play Hard
               </button>
             </div>
-            <div className="block-subhead">
-              Technology
-            </div>
+            <div className="block-subhead">Technology</div>
             <div className="quizmania-technology">
               <div className="quizmania-technology_main">
                 <div>
@@ -384,27 +359,23 @@ export default function QuizInt() {
                   />
                 </div>
                 <div className="block-body">
-                
-                    Unleash your tech curiosity with our Technology category!
-                    From computers and hardware to software, programming
-                    languages, and AI basics, our quizzes cover it all. Dive
-                    into the intricate world of computer hardware, understand
-                    the magic of software, and challenge your coding skills with
-                    various programming languages. Discover the future of
-                    technology with insights into Artificial Intelligence,
-                    machine learning, and neural networks.
-                  
+                  Unleash your tech curiosity with our Technology category! From
+                  computers and hardware to software, programming languages, and
+                  AI basics, our quizzes cover it all. Dive into the intricate
+                  world of computer hardware, understand the magic of software,
+                  and challenge your coding skills with various programming
+                  languages. Discover the future of technology with insights
+                  into Artificial Intelligence, machine learning, and neural
+                  networks.
                 </div>
               </div>
               <div className="block-body">
-                
-                  Whether you're a tech enthusiast, a professional, or simply
-                  curious about the digital landscape, our Technology category
-                  offers a thrilling adventure into the world of tech. Embrace
-                  cutting-edge knowledge, explore the latest advancements, and
-                  quench your thirst for tech wisdom. Join us on this exciting
-                  journey and unlock your tech potential today!
-                
+                Whether you're a tech enthusiast, a professional, or simply
+                curious about the digital landscape, our Technology category
+                offers a thrilling adventure into the world of tech. Embrace
+                cutting-edge knowledge, explore the latest advancements, and
+                quench your thirst for tech wisdom. Join us on this exciting
+                journey and unlock your tech potential today!
               </div>
               <button className="button_Holder" onClick={buttonClick}>
                 Tech Odyssey
