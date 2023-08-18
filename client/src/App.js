@@ -17,7 +17,7 @@ import Motivation from "./Components/Motivation/Motivational";
 import Epaper1 from "./Components/Epaper/Js/Epaper1";
 //import Celebration from "./Components/Animation/Celebration";
 import Gamehome from "./Components/Games/Gamehome";
-
+import Gamepage from "./Components/Studentcorner/WelcomePage/Gamepage";
 import Puzzle from "./Components/Games/Puzzle/Puzzle";
 import MathGame from "./Components/Games/Math_game/MathGame";
 import About from "./Components/Home/components/About";
@@ -82,6 +82,7 @@ function App() {
           <Route exact path="/motivation" element={<Motivation />} />
 
           <Route exact path="/Games" element={<Gamehome />} />
+          <Route exact path="/gamepage" element={<Gamepage />} />
 
           <Route exact path="/Puzzle" element={<Puzzle />} />
           <Route exact path="/mathgame" element={<MathGame />} />

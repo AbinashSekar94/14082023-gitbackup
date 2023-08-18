@@ -52,6 +52,15 @@
   /* line-height: 1.2; */
 }
 
+.heading-text {
+  color: white;
+  font-size: 79px;
+  font-family: normal 900 79px/100px Arial MT;
+  font-weight: 900;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
 .button_Holder {
   font-size: 28px;
   font-weight: 700;

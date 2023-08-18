@@ -1,0 +1,50 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+}
+.one,
+.two {
+  height: 150px;
+  width: 100%;
+  font-size: 50px;
+  font-style: italic;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  background-color: #00468b;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+  text-align: center;
+  color: white;
+  font-size: 4vw;
+  font-family: normal 900 79px/100px Arial MT;
+  font-weight: 900;
+  letter-spacing: 0px;
+  opacity: 1;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
+}
+.two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  background-color: #00468b;
+  -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+  text-align: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+
+.two img {
+}
