@@ -7,7 +7,9 @@ import gameicon from "./images/game.webp";
 import { useNavigate } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
-
+import Lottie from "lottie-react";
+import lottie1 from "./images/animation_lley4ffv.json";
+import lottie2 from "./images/animation_lleydvmn.json";
 function Gamepage() {
   const navigate = useNavigate();
 
@@ -60,14 +62,18 @@ function Gamepage() {
         <Container className="sc_container">
           <div className="loading-content">
             <div className="loading-heading1">
-            <div class="parent">
-              <div class="one">
-                <div>FuniVerse</div>
+              <div className="parent">
+                <div className="one">
+                  <div>FuniVerse</div>
+                </div>
+                <div className="two">
+                  <img
+                    src={gameicon}
+                    alt="heading"
+                    style={{ color: "white" }}
+                  />
+                </div>
               </div>
-              <div class="two">
-                <div><img src={gameicon} alt="heading" style={{ color: "white" }} /></div>
-              </div>
-            </div>
             </div>
 
             <div className="heading-below-content"></div>
@@ -87,11 +93,10 @@ function Gamepage() {
                   </div>
                 </div>
                 <div className="side_image">
-                  <img
-                    src={gameicon}
+                  <Lottie
+                    animationData={lottie1}
+                    loop={true}
                     className="brainicon"
-                    alt="quizmania"
-                    style={{ color: "black" }}
                   />
                 </div>
               </div>
@@ -105,19 +110,29 @@ function Gamepage() {
                   colors, exciting awards await, ready to be claimed as a
                   testament to your knowledge prowess.
                 </div>
-                <div className="block-body">
-                  At Quiz Mania, we believe in making learning a delightful
-                  adventure, where every correct answer brings a sense of
-                  accomplishment and every challenge sparks your curiosity. So,
-                  gather your wit and curiosity, and join us on this quest to
-                  test and expand your knowledge horizon. Let's embark on this
-                  thrilling journey together and celebrate the joy of
-                  discovering new realms of wisdom!
-                </div>
+                
               </div>
               <button className="button_Holder" onClick={buttonClick}>
                 TEST YOUR BRAIN POWER
               </button>
+
+              <div className="animated_buttons">
+                <div className="animated_games">
+                  <img
+                    src={gameicon}
+                    alt="heading"
+                    style={{ color: "white" }}
+                  />
+                </div>
+                <div className="animated_games">
+                  For More Games Lets Play
+                  <Lottie
+                    animationData={lottie2}
+                    loop={true}
+                    className="lottie2icon"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </Container>

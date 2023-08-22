@@ -3,15 +3,21 @@
   flex-direction: row;
   position: relative;
   width: 100%;
+  align-items: center;
 }
+
+.quizamania-maincontent {
+  align-items: center;
+}
+
 .one,
 .two {
-  height: 150px;
   width: 100%;
   font-size: 50px;
   font-style: italic;
 }
 .one {
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,6 +38,7 @@
   
 }
 .two {
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -46,5 +53,20 @@
   
 }
 
-.two img {
+.animated_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+
+.animated_games{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.lottie2icon{
+  height: auto;
+  width: 40%;
+}
+
